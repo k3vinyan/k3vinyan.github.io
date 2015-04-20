@@ -1,0 +1,49 @@
+a:link {
+	color: white;
+	text-decoration: none;
+	padding: 20px 30px 15px 30px;
+}
+
+a:visited {
+	color: grey;
+}
+
+a:hover {
+	color: black;
+	background-color: white;
+	}
+
+ul li {
+	display: inline-block;
+	margin-top: -40px;
+}
+.date {
+	font-size: 10px;
+	font-style: italic;
+	color: #b3b3b3;
+	padding-left: 10px;
+}
+
+.postNumber {
+padding-left: 10px;	
+}
+
+.post-title{
+	color: #bdbdbd;
+}
+
+.subtitle{
+	color: #bdbdbd;
+}
+
+.post {
+	color: #d3d3d3;
+	font-famly: Arial;
+}
+
+.date {
+	color: ;
+	position: absolute;
+	right: 0;
+	margin: 10px;
+}
