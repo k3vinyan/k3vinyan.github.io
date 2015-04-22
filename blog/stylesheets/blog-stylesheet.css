@@ -5,15 +5,16 @@ a:link {
 }
 
 a:visited {
-	color: grey;
+	color: #B0B0B0;
 }
 
 .top-link:hover {
-	color: black;
-	background-color: white;
+	color: white;
+	background-color: #666666;
+	padding: 20px 0px;
 	}
 
-ul li {
+ol li {
 	display: inline-block;
 	margin-top: -40px;
 }
@@ -28,7 +29,7 @@ ul li {
 
 .postNumber {
 	padding-left: 10px;	
-	text-decoration: underline;
+	
 }
 
 .post-title{
@@ -46,8 +47,18 @@ ul li {
 
 .date {
 	color: ;
-	position: absolute;
 	right: 0;
 	margin: 10px;
 }
+ .blog-post {
+	display: disable;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
