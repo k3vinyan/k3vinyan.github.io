@@ -74,12 +74,15 @@ border: 1px black solid;
 float: left;
 clear: both;
 width: 100%;
-text-align: center;
 background-color: #333333;
 color: white;
 border-radius: 5px;
-padding-right: 150px;
-
+padding-left: 135px;
+padding-right: 15px;
+text-align: right;
+font-size: 12px;
+font-style: italic;
+color: #d3d3d3;
 
 
 }

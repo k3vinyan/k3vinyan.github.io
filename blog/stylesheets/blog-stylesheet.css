@@ -20,11 +20,13 @@ ol li {
 	margin-top: -40px;
 }
 .date {
-	font-size: 10px;
+	font-size: 12px;
 	font-style: italic;
 	color: #b3b3b3;
-	position: absolute;
-	top: 270px;
+	position: relative;
+	left: -10px;
+
+	
 	
 }
 
@@ -62,6 +64,12 @@ img.center {
 }
 div #post-link {
 	color: black;
+}
+
+.post4_imgs {
+	width: 700px;
+
+
 }
 
 
