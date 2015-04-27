@@ -6,6 +6,7 @@ background-color: #cccccc;
  margin-left: auto;
  margin-right: auto;
 
+
 }
 
 #banner {
@@ -28,6 +29,7 @@ position: absolute;
 top: 8.5px;
 border-radius: 20px;
 border: 1px black solid;
+display: none;
 
 }
 
@@ -77,6 +79,9 @@ background-color: #333333;
 color: white;
 border-radius: 5px;
 padding-right: 150px;
+
+
+
 }
 
 

@@ -1,5 +1,7 @@
 body {
-background-image: url("imgs/grey-background.jpg") 
+background-image: url("imgs/back.jpg") 
+top right no-repeat; 
+background-attachment: fixed; 
 }
 
 #banner {
