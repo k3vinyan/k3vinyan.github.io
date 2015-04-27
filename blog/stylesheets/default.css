@@ -1,25 +1,57 @@
 body {
-background-image: url("../imgs/back.jpg");
+background-image: url("../imgs/back2.jpg");
 background-color: #cccccc;
  width: 700px;
  height: 1054px;
- margin-left: auto;
- margin-right: auto;
-
-
+ margin-left: 100px;
 }
 
 #banner {
 border: 1px black solid;
 background-color: #333333;
-width: 100%;
+width: 840px;
 height: 100px;
 border-radius: 5px;
-padding-right: 150px;
 
+position: relative;
 margin-bottom: 10px;
-text-align: center;
+left: 0px;
+bottom: 0px;
 color: white;
+padding-left: 10px;
+}
+
+#logo {
+	float: left;
+}
+
+#socialiconsbox {
+	float: right;
+	padding-top: 10px;
+	position: relative;
+
+}
+.socialicons {
+color: #FFF;
+font-size: 2em;
+margin-right: 6px;
+font-family: georgia, serif;
+letter-spacing: -1px;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+}
+.facebook { background:#595959; padding:2px 15px; }
+.twitter { background:#9f9f9f; padding:2px 15px; }
+.googleplus { background:#767676; padding:2px 3px; }
+.linkedin { background:#939393; padding: 2px 6px; }
+
+#quote {
+	font-size: 12px;
+	font-style: italic;
+	padding-left: 10px;
+	float: left;
+	clear: left;
 }
 
 #photo {
@@ -59,16 +91,6 @@ padding-right: 75px;
 
 }
 
-
-/* Nav-bar removed
-
-#side-navbar {
-border: 1px black solid;
-float: right;
-}
-
-*/
-
 #footer {
 border: 1px black solid;
 float: left;
@@ -86,6 +108,7 @@ color: #d3d3d3;
 
 
 }
+
 
 
 
