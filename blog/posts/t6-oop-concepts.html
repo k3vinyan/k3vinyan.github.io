@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Post 3</title>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
+	<link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<body>
+
+	<div id="banner">
+		<div id="logo"><img src ="../imgs/logo_gif.gif"></div>
+		<div id="socialiconsbox">
+			<a class="facebook socialicons" href="https://www.facebook.com/" title="Facebook " target="_blank">f</a>
+			<a class="twitter socialicons" href="https://twitter.com/" title="Twitter " target="_blank">t</a>
+			<a class="googleplus socialicons" href="https://plus.google.com/" title="Google+" target="_blank">g+</a>
+			<a class="linkedin socialicons" href="https://linkedin.com/" title="Linkedin" target="_blank">in</a>
+		</div>
+		<h3 id="quote">My life is dull and grey just like this website (I really need to change the color scheme soon...it's so depressing...)</h3>
+	</div>	
+
+	<div id="top-navbar">
+		<ol><h4>
+			<li class="top-link"><a href="../index.html">Homepage</a></li>
+			<li class="top-link"><a href="../about.html">About</a></li>
+			<li class="top-link"><a href="../profolio.html">Profolio</a></li>
+			<li class="top-link"><a href="../blog.html">Blogs</a></li>
+			<li class="top-link"><a href="../contact.html">Contact</a></li>
+		</ol></h4>
+
+	</div>	
+
+			<p class="post">
+		<div class="content"><h3> Variable Scope</h3>
+			<date class="date">Posted on May 17, 2014</date>
+
+			<p>Scope is the formal term that represents when you can access a variable or method and when you can't. It's nothing explicit in the code (you're never calling a method named scope or anything like that); it's just a concept. If your variable is "in scope" then it's available for use, otherwise it's "out of scope".</p>
+
+			<p>Scope refers to the reach or visibility of variables. Different types of variables have different scoping rules. We'll be talking chiefly about two types: global and local variables.</p>
+
+			<h3>Global scope and global variables</h3>
+
+			<p>We're starting with the scope that's used least often, but which you need to be aware of: global scope, meaning scope that covers the entire program. Global scope is enjoyed by global variables. Global variables are distinguished by starting with a dollar-sign ($) character. They are available everywhere in your program. Global variables never go out of scope. However, global variables are used very little by experienced programmers (except perhaps a few of the built-in ones).</p>
+
+			<h3>Built-in global variables</h3>
+
+			<p>The Ruby interpreter starts up with a fairly large number of global variables already initialized. These variables store information that's of potential use anywhere and everywhere in your program. For example, the global variable $0 contains the name of the file Ruby is executing. The global $: (dollar sign followed by a colon) contains the directories that make up the path Ruby searches when you load an external file. $$ contains the process id of the Ruby process. And there are more.</p>
+
+			<h3>Local scope</h3>
+
+			<p>The top level (outside of all definition blocks) has its own local scope.
+			Every class or module definition block (class, module) has its own local scope, even nested class/module definition blocks.
+			Every method definition (def) has its own local scope.</p>
+
+
+	 </div>
+	 <div id="footer">Created by Makeven Yan</div>
+	</body>
+
+</html>
